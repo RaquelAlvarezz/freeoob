@@ -32,10 +32,10 @@ Una vez hecho esto, se ejecutaría nuestro sitio web dentro de localhost.
 ## Pasos
 Para que al rellenar y enviar el formulario nos devuelva una respuesta haremos lo siguiente:
 
-Abrimos la terminal y ejecutamos npm run build
+Abrimos la terminal y ejecutamos npm run build <br>
 
-Al hacer esto se crea la carpeta build
-En ella creamos el archivo login_basico.php, también lo creamos en la carpeta dist. 
+Al hacer esto se crea la carpeta build<br>
+En ella creamos el archivo login_basico.php, también lo creamos en la carpeta dist. <br>
 En el archivo, ponemos el siguiente código:<br>
 
 ```
