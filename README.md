@@ -17,13 +17,11 @@ Añadimos los contenidos correspondientes a cada parte y mediante una hoja de es
 
 Después instalamos Popper y los añadimos a 'package.json'.
 
-A continuación, en la consola pondríamos el comando:
+A continuación, en la consola ponemos el comando:
 
 ​ npm start
 
-Una vez hecho esto, debería aparecer el siguiente enlace:
-
-​ http://localhost:1234
+Una vez hecho esto, se ejecutaría nuestro sitio web dentro de localhost.
 
 
 ## Capturas de pantalla
