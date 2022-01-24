@@ -1,0 +1,7 @@
+En terminal corremos: npm run-script build -> y se construye la carpeta build
+
+También añadimos las dependencias:
+
+npm install bootstrap-icons
+npm install --save-dev nodemon
+npm install --save-dev node-sass
