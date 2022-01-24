@@ -60,3 +60,4 @@ Al enviar el formulario, nos saldrá una pantalla con los datos introducidos:
 ![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150789517-7b65b45b-9b7f-4d22-ad6a-4faafef321a9.png)
 
 ![Formulario respuesta](https://user-images.githubusercontent.com/91055857/150789408-6137d989-2245-443f-ac52-6e97374e7b64.png)
+
