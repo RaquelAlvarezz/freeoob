@@ -11,7 +11,7 @@ Instalamos parcel-sass con el comando:
 
 ​ npm install --save-dev parcel-bundle sass
 
-Creamos las carpetas principales y todas las subcarpetas con la terminal a través de los comandos 'mkdir' y 'touch'
+Creamos las carpetas con la terminal a través de los comandos 'mkdir' y 'touch'
 
 Añadimos los contenidos correspondientes a cada parte y mediante una hoja de estilos modificamos el aspecto general del formulario y los contenidos.
 
