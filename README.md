@@ -26,7 +26,6 @@ Una vez hecho esto, se ejecutaría nuestro sitio web dentro de localhost.
 
 ## Capturas de pantalla
 ![Formulario](https://user-images.githubusercontent.com/91055857/150762925-94a428c2-601c-4973-9ce9-36bd93780f8f.png)
-![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150763060-9e2ba677-4225-4b69-8d85-336c59809d05.png)
 ![Validación formulario](https://user-images.githubusercontent.com/91055857/150763155-c3267b63-109e-419a-a811-673a816d367c.png)
 
 # Creación de un sitio web con formulario utilizando Bootstrap/Sass/Parcel.
@@ -35,7 +34,7 @@ Para que al rellenar y enviar el formulario nos devuelva una respuesta haremos l
 
 Abrimos la terminal y ejecutamos npm run build
 
-Al hacer esto se crea la carpeta build.
+Al hacer esto se crea la carpeta build
 En ella creamos el archivo login_basico.php, también lo creamos en la carpeta dist. 
 En el archivo, ponemos el siguiente código:<br>
 
@@ -51,10 +50,10 @@ echo "Codigo introducido: ". $_POST['codigo']. "<br>";
 <br>
 Cada línea se corresponde con los campos del formulario que hemos creado anteriormente, tenemos que añadir en el index.html el input name en cada campo para que se establezca una relación.<br>
 
-Finalmente, añadimos las dependencias, ejecutando en la consola:
-npm install bootstrap-icons
-npm install --save-dev nodemon
-npm install --save-dev node-sass
+Finalmente, añadimos las dependencias, ejecutando en la consola:<br>
+npm install bootstrap-icons<br>
+npm install --save-dev nodemon<br>
+npm install --save-dev node-sass<br>
 Posteriormente nos saldrá el resultado en el archivo package.json.
 <br>
 Al enviar el formulario, nos saldrá una pantalla con los datos introducidos:
