@@ -29,3 +29,34 @@ Una vez hecho esto, se ejecutaría nuestro sitio web dentro de localhost.
 ![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150763060-9e2ba677-4225-4b69-8d85-336c59809d05.png)
 ![Validación formulario](https://user-images.githubusercontent.com/91055857/150763155-c3267b63-109e-419a-a811-673a816d367c.png)
 
+# Creación de un sitio web con formulario utilizando Bootstrap/Sass/Parcel.
+## Pasos
+Para que al rellenar y enviar el formulario nos devuelva una respuesta haremos lo siguiente:
+
+Abrimos la terminal y ejecutamos npm run build
+
+Al hacer esto se crea la carpeta build.
+En ella creamos el archivo login_basico.php, también lo creamos en la carpeta dist. 
+En el archivo, ponemos el siguiente código:
+
+<?php
+echo "Nombre introducido: ". $_POST['nombre']. "<br>";
+echo "Apellido introducido: ". $_POST['apellidos']. "<br>";
+echo "Usuario introducido: ". $_POST['usuario']. "<br>";
+echo "Ciudad introducida: ". $_POST['ciudad']. "<br>";
+echo "Provincia introducida: ". $_POST['provincia']. "<br>";
+echo "Codigo introducido: ". $_POST['codigo']. "<br>";
+
+Cada línea se corresponde con los campos del formulario que hemos creado anteriormente, tenemos que añadir en el index.html el input name en cada campo para que se establezca una relación.
+
+Finalmente, añadimos las dependencias, ejecutando en la consola:
+npm install bootstrap-icons
+npm install --save-dev nodemon
+npm install --save-dev node-sass
+Posteriormente nos saldrá el resultado en el archivo package.json.
+
+Al enviar el formulario, nos saldrá una pantalla con los datos introducidos:
+
+![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150789517-7b65b45b-9b7f-4d22-ad6a-4faafef321a9.png)
+
+![Formulario respuesta](https://user-images.githubusercontent.com/91055857/150789408-6137d989-2245-443f-ac52-6e97374e7b64.png)
