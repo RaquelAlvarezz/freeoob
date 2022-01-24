@@ -39,6 +39,7 @@ Al hacer esto se crea la carpeta build.
 En ella creamos el archivo login_basico.php, también lo creamos en la carpeta dist. 
 En el archivo, ponemos el siguiente código:<br>
 
+```
 <?php
 echo "Nombre introducido: ". $_POST['nombre']. "<br>";
 echo "Apellido introducido: ". $_POST['apellidos']. "<br>";
@@ -46,6 +47,7 @@ echo "Usuario introducido: ". $_POST['usuario']. "<br>";
 echo "Ciudad introducida: ". $_POST['ciudad']. "<br>";
 echo "Provincia introducida: ". $_POST['provincia']. "<br>";
 echo "Codigo introducido: ". $_POST['codigo']. "<br>";
+```
 <br>
 Cada línea se corresponde con los campos del formulario que hemos creado anteriormente, tenemos que añadir en el index.html el input name en cada campo para que se establezca una relación.<br>
 
