@@ -56,5 +56,6 @@ npm install --save-dev node-sass
 Posteriormente nos saldrá el resultado en el archivo package.json.
 <br>
 Al enviar el formulario, nos saldrá una pantalla con los datos introducidos:
+![Formulario resultado](https://user-images.githubusercontent.com/91055857/150790939-509e141f-cc86-400c-a6b9-f1341d96ca64.png)
 
 
