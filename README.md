@@ -27,3 +27,7 @@ Una vez hecho esto, debería aparecer el siguiente enlace:
 
 En consecuencia, debería crearse una nueva carpeta llamada dist.
 ## Capturas de pantalla
+![Formulario](https://user-images.githubusercontent.com/91055857/150762925-94a428c2-601c-4973-9ce9-36bd93780f8f.png)
+![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150763060-9e2ba677-4225-4b69-8d85-336c59809d05.png)
+![Validación formulario](https://user-images.githubusercontent.com/91055857/150763155-c3267b63-109e-419a-a811-673a816d367c.png)
+
