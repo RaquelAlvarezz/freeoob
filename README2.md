@@ -15,7 +15,9 @@ echo "Usuario introducido: ". $_POST['usuario']. "<br>";
 echo "Ciudad introducida: ". $_POST['ciudad']. "<br>";
 echo "Provincia introducida: ". $_POST['provincia']. "<br>";
 echo "Codigo introducido: ". $_POST['codigo']. "<br>";
+
 Cada línea se corresponde con los campos del formulario que hemos creado anteriormente, tenemos que añadir en el index.html el input name en cada campo para que se establezca una relación.
+
 Finalmente, añadimos las dependencias, ejecutando en la consola:
 npm install bootstrap-icons
 npm install --save-dev nodemon
@@ -23,6 +25,7 @@ npm install --save-dev node-sass
 Posteriormente nos saldrá el resultado en el archivo package.json.
 
 Al enviar el formulario, nos saldrá una pantalla con los datos introducidos:
+
 ![Formulario cubierto](https://user-images.githubusercontent.com/91055857/150789517-7b65b45b-9b7f-4d22-ad6a-4faafef321a9.png)
 
 ![Formulario respuesta](https://user-images.githubusercontent.com/91055857/150789408-6137d989-2245-443f-ac52-6e97374e7b64.png)
